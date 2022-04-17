@@ -6,7 +6,7 @@ using System.Text;
 
 namespace kuropptaddin
 {
-    public partial class Ribbon1
+    public partial class KuroooatddinMainRibbon
     {
         private void Ribbon1_Load(object sender, RibbonUIEventArgs e)
         {

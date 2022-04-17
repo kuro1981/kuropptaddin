@@ -167,11 +167,11 @@
     <Compile Include="Properties\UserControl1.Designer.cs">
       <DependentUpon>UserControl1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Ribbon1.cs">
+    <Compile Include="KuroooatddinMainRibbon.cs">
       <SubType>Component</SubType>
     </Compile>
-    <Compile Include="Ribbon1.Designer.cs">
-      <DependentUpon>Ribbon1.cs</DependentUpon>
+    <Compile Include="KuroooatddinMainRibbon.Designer.cs">
+      <DependentUpon>KuroooatddinMainRibbon.cs</DependentUpon>
     </Compile>
     <Compile Include="TagEditor.cs">
       <SubType>UserControl</SubType>
@@ -188,8 +188,8 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Ribbon1.resx">
-      <DependentUpon>Ribbon1.cs</DependentUpon>
+    <EmbeddedResource Include="KuroooatddinMainRibbon.resx">
+      <DependentUpon>KuroooatddinMainRibbon.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TagEditor.resx">
       <DependentUpon>TagEditor.cs</DependentUpon>
