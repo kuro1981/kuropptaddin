@@ -17,5 +17,22 @@ namespace kuropptaddin
         {
             Globals.ThisAddIn.ShowPanel();
         }
+
+        private void button1_Click(object sender, RibbonControlEventArgs e)
+        {
+            Globals.ThisAddIn.CreateNonVoicePPTX();
+        }
+
+
+        private void btn_merge_note_Click(object sender, RibbonControlEventArgs e)
+        {
+            Globals.ThisAddIn.MergeNote();
+
+        }
+
+        private void GetInfoBtn_Click(object sender, RibbonControlEventArgs e)
+        {
+            Globals.ThisAddIn.getPresentationInfo();
+        }
     }
 }

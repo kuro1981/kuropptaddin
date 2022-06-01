@@ -9,9 +9,17 @@ namespace kuropptaddin
 {
     public class RehearsalTiming
     {
+        private PowerPoint.Presentation _presentation;
 
         private PowerPoint.Slide _slide;
         private String[] _timings;
+
+        public PowerPoint.Presentation presentation 
+        {
+            get { return _presentation; }
+
+            set { _presentation = value; }  
+        }
 
         public PowerPoint.Slide Slide
         {
@@ -26,6 +34,7 @@ namespace kuropptaddin
         public RehearsalTiming(PowerPoint.Slide slide)
         {
             _slide = slide;
+            _presentation = slide.Parent;
             _timings = getTimingTag();
         }
 

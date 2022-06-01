@@ -7,23 +7,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using PowerPoint = Microsoft.Office.Interop.PowerPoint;
 
 namespace kuropptaddin
 {
-    public partial class TagEditor : UserControl
+    public partial class MergeNoteForm : Form
     {
-        public TagEditor()
+        public MergeNoteForm()
         {
             InitializeComponent();
+        }
 
+        private void MergeNoteForm_Load(object sender, EventArgs e)
+        {
 
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            MergeNoteForm.ActiveForm.Close();
         }
-
     }
 }
